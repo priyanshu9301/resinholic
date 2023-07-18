@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Resinoholic_</title>
+    <link rel="shortcut icon" type="image/x-icon" href="logo.jpg" />
+  </head>
+  <style>
+    body {
+      background-color: rgba(235, 235, 223, 0.899);
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      list-style: none;
+    }
+    :root {
+      --twentypx: 20px;
+      --thirtypx: 30px;
+      --fourtypx: 40px;
+      --fiftytypx: 50px;
+      --sixtypx: 60px;
+      --eightypx: 80px;
+      --hundredpx: 100px;
+      --darkgray: rgb(75, 73, 73);
+    }
+    header {
+      position: sticky;
+      top: 0px;
+      width: 100%;
+      height: var(--eightypx);
+      background-color: rgba(0, 0, 0, 0.916);
+      opacity: 0.9;
+      display: flex;
+      justify-content: space-between;
+      z-index: 200;
+    }
+
+    .logo1 {
+      margin-top: 0px;
+      width: var(--eightypx);
+      height: var(--eightypx);
+      mix-blend-mode: soft-light;
+    }
+    a {
+      color: white;
+      padding: var(--thirtypx);
+    }
+
+    .acon {
+      /* margin-top: 10px; */
+      display: flex;
+    }
+    .bar {
+      margin-top: var(--thirtypx);
+    }
+
+    i {
+      font-size: var(--twentypx);
+      color: white;
+    }
+    a:hover {
+      background-color: var(--darkgray);
+      color: rgb(245, 237, 237);
+      border-radius: var(--twentypx);
+    }
+    .iconhov:hover {
+      background-color: var(--darkgray);
+      color: rgb(245, 237, 237);
+      border-radius: 50px;
+      /* box-shadow: 0px 0px 10px 2px gray; */
+    }
+    .dropdown {
+      margin-top: 25px;
+    }
+    .btn {
+      text-decoration: underline;
+      color: white;
+      border: none;
+    }
+    .btn:hover {
+      color: white;
+    }
+  </style>
+  <body>
+    <header>
+      <div class="logo">
+        <img class="logo1" src="logo.jpg" alt="" />
+      </div>
+      <div class="acon">
+        <a href="index.html"><li>HOME</li> </a>
+        <a href="#"><li>ABOUT</li></a>
+
+        <!-- NAV DROPDOWN 3 -->
+        <div class="dropdown">
+          <button
+            class="btn dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            OUR PRODUCTS
+          </button>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="#poojathali">OUR PRODUCTS</a>
+            </li>
+            <li><a class="dropdown-item" href="pooja.html">POOJA THALI</a></li>
+            <li><a class="dropdown-item" href="clocks.html">CLOCKS</a></li>
+            <li>
+              <a class="dropdown-item" href="keychains.html">KEYCHAINS</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="teacoasters.html">TEA COASTERS</a>
+            </li>
+            <li><a class="dropdown-item" href="necklace.html">NECKLACE</a></li>
+            <li>
+              <a class="dropdown-item" href="dreamcatcher.html"
+                >DREAM CATCHERS</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="bookmarks.html">BOOKMARKS</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="photoframes.html">PHOTOFRAMES</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="namestand.html">NAME STANDS</a>
+            </li>
+          </ul>
+        </div>
+
+        <a
+          target="blank"
+          href="https://www.instagram.com/resinoholic_/?igshid=MzRlODBiNWFlZA%3D%3D"
+          ><li>CONTACT US</li></a
+        >
+      </div>
+
+      <div class="bar">
+        <a class="iconhov"><i class="fa-solid fa-bars"></i></a>
+      </div>
+    </header>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
