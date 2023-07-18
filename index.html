@@ -85,6 +85,17 @@
       border-radius: 50px;
       /* box-shadow: 0px 0px 10px 2px gray; */
     }
+    .dropdown {
+      margin-top: 25px;
+    }
+    .btn {
+      text-decoration: underline;
+      color: white;
+      border: none;
+    }
+    .btn:hover {
+      color: white;
+    }
     .title {
       width: 100%;
       font-size: 150px;
@@ -186,17 +197,6 @@
     .marginn {
       margin-left: 7%;
     }
-    .dropdown {
-      margin-top: 25px;
-    }
-    .btn {
-      text-decoration: underline;
-      color: white;
-      border: none;
-    }
-    .btn:hover {
-      color: white;
-    }
 
     footer {
       margin-top: var(--hundredpx);
@@ -207,6 +207,11 @@
       display: flex;
       justify-content: space-between;
       z-index: 200;
+    }
+    .mdiv2 a {
+      background-color: none;
+      padding: 0px;
+      width: 0px;
     }
   </style>
   <body>
@@ -229,9 +234,32 @@
             OUR PRODUCTS
           </button>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#poojathali">POOJA THALI</a></li>
-            <li><a class="dropdown-item" href="#">CLOCKS</a></li>
-            <li><a class="dropdown-item" href="#">KEYCHAINS</a></li>
+            <li>
+              <a class="dropdown-item" href="#poojathali">OUR PRODUCTS</a>
+            </li>
+            <li><a class="dropdown-item" href="pooja.html">POOJA THALI</a></li>
+            <li><a class="dropdown-item" href="clocks.html">CLOCKS</a></li>
+            <li>
+              <a class="dropdown-item" href="keychains.html">KEYCHAINS</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="teacoasters.html">TEA COASTERS</a>
+            </li>
+            <li><a class="dropdown-item" href="necklace.html">NECKLACE</a></li>
+            <li>
+              <a class="dropdown-item" href="dreamcatcher.html"
+                >DREAM CATCHERS</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="bookmarks.html">BOOKMARKS</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="photoframes.html">PHOTOFRAMES</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="namestand.html">NAME STANDS</a>
+            </li>
           </ul>
         </div>
 
@@ -263,15 +291,21 @@
     <div class="mdiv2" id="poojathali">
       <div class="b1 marginn">
         <span>POOJA THALI</span>
-        <img class="pImg" src="poojathali.png" alt="" />
+        <a href="pooja.html"
+          ><img class="pImg" src="poojathali.png" alt=""
+        /></a>
       </div>
       <div class="b1">
         <span>TEA COASTER</span>
-        <img class="pImg" src="teacoaster.jpg" alt="" />
+        <a href="teacoasters.html"
+          ><img class="pImg" src="teacoaster.jpg" alt=""
+        /></a>
       </div>
       <div class="b1">
         <span>NECKLACE</span>
-        <img class="pImg" src="necklace.jpg" alt="" />
+        <a href="necklace.html"
+          ><img class="pImg" src="necklace.jpg" alt=""
+        /></a>
       </div>
     </div>
     <!--  -->
@@ -279,15 +313,19 @@
     <div class="mdiv2">
       <div class="b1 marginn">
         <span>CLOCKS</span>
-        <img class="pImg" src="clock.jpeg" alt="" />
+        <a href="clocks.html"><img class="pImg" src="clock.jpeg" alt="" /></a>
       </div>
       <div class="b1">
         <span>KEYCHAINS</span>
-        <img class="pImg" src="keychains.jpg" alt="" />
+        <a href="keychains.html"
+          ><img class="pImg" src="keychains.jpg" alt=""
+        /></a>
       </div>
       <div class="b1">
         <span>DREAM CATCHER</span>
-        <img class="pImg" src="dreamcatcher.jpg" alt="" />
+        <a href="dreamcatcher.html"
+          ><img class="pImg" src="dreamcatcher.jpg" alt=""
+        /></a>
       </div>
     </div>
     <!--  -->
@@ -295,15 +333,21 @@
     <div class="mdiv2">
       <div class="b1 marginn">
         <span>PHOTOFRAMES</span>
-        <img class="pImg" src="photoframe.jpg" />
+        <a href="photoframes.html">
+          <img class="pImg" src="photoframe.jpg"
+        /></a>
       </div>
       <div class="b1">
         <span>BOOKMARKS</span>
-        <img class="pImg" src="bookmarks.jpg" alt="" />
+        <a href="bookmarks.html"
+          ><img class="pImg" src="bookmarks.jpg" alt=""
+        /></a>
       </div>
       <div class="b1">
-        <span>DREAM CATCHER</span>
-        <img class="pImg" src="dreamcatcher.jpg" alt="" />
+        <span>NAME STAND</span>
+        <a href="namestand.html"
+          ><img class="pImg" src="dreamcatcher.jpg" alt=""
+        /></a>
       </div>
     </div>
 
