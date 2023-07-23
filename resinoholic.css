@@ -197,8 +197,9 @@ body {
     display: flex;
     justify-content: space-between;
     z-index: 200;
+    position: relative;
     bottom: 0%;
-   
+    
   }
   body {
  height: fit-content;
@@ -214,6 +215,7 @@ body {
     font-weight: 700;
     font-family: "Times New Roman", Times, serif;
     color: rgba(94, 46, 46, 0.906);
+    text-shadow: 1px 0px white;
   }
   .main {
     display: flex;
