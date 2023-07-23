@@ -197,6 +197,11 @@ body {
     display: flex;
     justify-content: space-between;
     z-index: 200;
+    bottom: 0%;
+   
+  }
+  body {
+ height: fit-content;
   }
   .mdiv2 a {
     background-color: none;
