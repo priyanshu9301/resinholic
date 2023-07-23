@@ -1,0 +1,220 @@
+body {
+    background-color: rgba(235, 235, 223, 0.899);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  :root {
+    --twentypx: 20px;
+    --thirtypx: 30px;
+    --fourtypx: 40px;
+    --fiftytypx: 50px;
+    --sixtypx: 60px;
+    --eightypx: 80px;
+    --hundredpx: 100px;
+    --darkgray: rgb(75, 73, 73);
+  }
+  header {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: var(--eightypx);
+    background-color: rgba(34, 33, 34, 0.916);
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-between;
+    z-index: 200;
+  }
+
+  .logo1 {
+    margin-top: 0px;
+    width: var(--eightypx);
+    height: var(--eightypx);
+    mix-blend-mode: soft-light;
+  }
+  a {
+    color: white;
+    padding: var(--thirtypx);
+  }
+
+  .acon {
+    /* margin-top: 10px; */
+    display: flex;
+  }
+  .bar {
+    margin-right: 15px;
+    margin-top: var(--thirtypx);
+  }
+
+  i {
+    font-size: var(--twentypx);
+    color: white;
+  }
+  a:hover {
+    background-color: var(--darkgray);
+    color: rgb(245, 237, 237);
+    border-radius: var(--twentypx);
+  }
+  .iconhov:hover {
+    background-color: var(--darkgray);
+    color: rgb(245, 237, 237);
+    border-radius: 50px;
+    /* box-shadow: 0px 0px 10px 2px gray; */
+  }
+  .dropdown {
+    margin-top: 25px;
+  }
+  .btn {
+    text-decoration: underline;
+    color: white;
+    border: none;
+  }
+  .btn:hover {
+    color: white;
+  }
+  .button1 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 0 5px 0px 5px;
+  }
+  .button2 {
+    margin-left: -5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0 5px 0px 5px;
+  }
+  .title {
+    width: 100%;
+    font-size: 150px;
+    color: rgba(94, 46, 46, 0.906);
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    position: absolute;
+    text-shadow: 2px 1px 1px black;
+    top: 65px;
+  }
+
+  .mdiv1 {
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    margin-top: var(--hundredpx);
+    display: flex;
+  }
+  .a1 {
+    width: 50%;
+    height: 600px;
+    background-image: url("4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .a2 {
+    width: 50%;
+    height: 600px;
+    background-image: url("5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .divoP {
+    margin-top: var(--eightypx);
+    width: 100%;
+    height: 300px;
+    background-image: url("productimage2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .oProducts {
+    width: 100%;
+    position: relative;
+    top: var(--eightypx);
+    font-size: 5em;
+    font-weight: 600;
+    color: rgba(94, 46, 46, 0.906);
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 2px 1px 1px black;
+    animation: ourproduct;
+    animation-duration: 3s;
+  }
+  @keyframes ourproduct {
+    0% {
+      position: relative;
+      left: 0px;
+    }
+    50% {
+      position: relative;
+      left: -10px;
+    }
+    100% {
+      position: relative;
+      left: 10px;
+    }
+  }
+
+  .mdiv2 {
+    width: 100%;
+    height: 500px;
+    /* margin-top: var(--hundredpx); */
+    display: flex;
+    align-items: center;
+  }
+  .b1 {
+    margin-top: -20px;
+    margin-left: var(--twentypx);
+    width: 28%;
+    height: 450px;
+  }
+  .pImg {
+    width: 100%;
+    height: 450px;
+  }
+  .b1 span {
+    position: relative;
+    top: 240px;
+    color: rgb(16, 12, 12);
+    background-color: rgba(255, 255, 255, 0.799);
+    display: block;
+    text-align: center;
+    font-size: var(--thirtypx);
+    font-weight: 700;
+  }
+  /* .b1:hover {
+    rotate: 2deg;
+  } */
+  .marginn {
+    margin-left: 7%;
+  }
+
+  footer {
+    margin-top: var(--hundredpx);
+    width: 100%;
+    height: 200px;
+    background-color: rgba(32, 32, 33, 0.916);
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-between;
+    z-index: 200;
+  }
+  .mdiv2 a {
+    background-color: none;
+    padding: 0px;
+    width: 0px;
+  }
+  .poojat {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Times New Roman", Times, serif;
+    color: rgba(94, 46, 46, 0.906);
+  }
+  .main {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+  }
+  .card {
+    width: 26%;
+  }
