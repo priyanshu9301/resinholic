@@ -9,6 +9,10 @@ function changeBackgroundColorr() {
     element.style.backgroundColor = "rgba(32, 32, 33, 0.916)";
     // document.getElementsByClassName(".title")[0].style.color = white;
 
+    const elementt = document.getElementsByClassName("title")[0];
+    elementt.style.color = "gray";
+    // elementt.style.fontSize = "100px";
+
 }
 // function changeBackgroundColorr() {
 //     //     const element = document.getElementsByClassName("title")[0];
